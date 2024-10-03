@@ -69,7 +69,7 @@
 // function multiplicar(a, b) {
 //     return a * b;
 // }
-    const multiplicarFlecha = () =>{
+    const multiplicarFlecha = (a, b) =>{
         return a * b;
     }
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
@@ -89,7 +89,7 @@
         }else{
             return n + suma(n-1);
         }
-    }
+    }git 
 // 5.2 Escribe una función que calcule la sucesión de Fibonacci de forma recursiva. La sucesión de Fibonacci es una serie de números que empieza por 0 y 1 y cada número es la suma de los dos anteriores. Por ejemplo: `fibonacci(6) -> 8`
     function fibonacci(n) {
         if(n == 0){
